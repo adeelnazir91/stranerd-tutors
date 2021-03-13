@@ -1,0 +1,469 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+
+/*=========Fonts================*/
+
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('../fonts/ubuntu-regular-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('../fonts/ubuntu-bold-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/*=========================*/
+
+body {
+   background-color:#17224D;
+  font-family: 'ubunturegular';
+}
+
+h3{
+      font-family: 'ubuntubold';
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.logo{
+	padding-bottom:0px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: #E2F0FF !important;
+    font-size: 15px;
+    font-weight: normal;
+
+}
+
+.nav-item .active{
+	    border-bottom: 2px solid #E2F0FF;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.1rem 1rem;
+}
+
+.login-link span{
+	background-color: #E2F0FF;
+    color: #17224D !important;
+    padding: 2px 13px 2px 13px !important;
+    border-radius: 30px;
+    display: inline-block;
+    position: relative;
+    bottom: 2px;
+}
+
+.home-slider{
+    padding-top: 35px;
+}
+
+.Leftslide {
+    background-image: url(../images/The_Business_Network_Global-03.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100% 100%;
+    max-width: 700px;
+    padding-left: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.carousel-caption{
+	position:static;
+	right:inherit;
+	left:inherit;
+	bottom:inherit;
+}
+
+.carousel-item{
+	height:auto;
+}
+
+.Leftslide h1{
+ color: #17224D;
+ font-size: 45px;
+ font-family: 'ubuntubold';
+}
+
+.Leftslide h4{
+    color: #17224D;
+    font-size:25px;
+    font-family: 'ubuntubold';
+}
+
+.Leftslide p{
+    color: #17224D;
+    font-size: 14px;
+}
+
+.join-today {
+    background-image: linear-gradient(to right top, #0f0927, #141341, #1c185d, #281b79, #381d96);
+    padding: 8px 30px;
+    border-radius: 12px;
+    color: #E2F0FF;
+    font-family: 'ubuntubold';
+    margin-top: 2px;
+    display: inline-block;
+}
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+}
+
+.carousel-indicators .active{
+	background-color: transparent !important;
+}
+.carousel-indicators li{
+	border: 2px solid #E2F0FF;
+	background-color: #E2F0FF !important;
+	background-clip: unset;
+	opacity: 5;
+}
+.Rightslide{
+	width: 70%;
+    position: absolute;
+    right: 0px;
+    bottom: 55px;
+    z-index: -1;
+}
+.join-today:hover{
+	text-decoration:none;
+	color: #E2F0FF;
+}
+
+
+/*=========How it works page====================*/
+.Boxes{
+    background-color: #344BA2;
+    padding: 30px 20px;
+    border: 2px solid #E2F0FF;
+    border-radius: 20px;
+    min-height:579px;
+}
+
+.Boxes h3 {
+    font-family: 'ubuntubold';
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.Boxes h4{
+    font-family: 'ubuntubold';
+    font-size: 20px;
+}
+
+.Boxes p{
+      font-size: 14px;
+}
+
+.Boxes span{
+      display: block;
+}
+
+.tutor-class{
+   width:400px;
+}
+
+/*==========================*/
+
+
+/*=========Contact Us==========*/
+ .contactForm{
+        padding-top: 25px;
+ }
+.contactForm h3{
+	font-size:25px;
+  }
+
+ .input-field{
+ 	background-color: transparent;
+    border: 1px solid #E2F0FF;
+    border-radius: 10px;
+    height: 35px;
+    font-size: 14px;
+ }
+textarea {
+    background-color: transparent !important;
+    border: 1px solid #E2F0FF !important;
+    border-radius: 10px !important;
+    height: 65px !important;
+    font-size: 14px !important;
+}
+
+.sendBtn{
+	font-size: 16px;
+    background-color: #344BA2;
+    color: #E2F0FF;
+    font-family: 'ubuntubold';
+    padding: 2px 30px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+form .form-control::-webkit-input-placeholder { 
+  color: #E2F0FF;
+}
+
+form .form-control::-moz-placeholder {
+  color: #E2F0FF;
+}
+form .form-control:-ms-input-placeholder {
+  color: #E2F0FF;
+}
+form .form-control:placeholder {
+  color: #E2F0FF;
+}
+
+.getIntouch{
+	background-image: url(../images/contact_us.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position:right;
+    padding: 60px 100px 100px 60px;
+}
+.getIntouch h3{
+	    color: #17224D;
+}
+
+.getIntouch ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.getIntouch ul li{
+	color: #17224D;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+.getIntouch span{
+
+}
+/*.phone-icon{
+  	background-image: url(../images/phone.svg);
+    background-repeat: no-repeat;
+}*/
+.email-icon{
+
+}
+.address-icon{
+
+}
+.social-media{
+
+}
+
+.social-media ul li{
+	display: inline-block;
+    padding: 0px 10px;
+}
+.social-media ul li img{
+	width: 40px;
+}
+
+/*==========================*/
+
+/*=========Modal css============*/
+.close{
+	color: #87B0DD;
+    font-weight: normal;
+}
+.modal-header{
+    padding-bottom: 0px;
+    padding-top: 5px;
+    border-bottom: 0px;
+}
+
+.modal-body h3{
+	color: #28397A;
+    font-size: 20px;
+    font-family: 'ubuntubold';
+}
+.modal-footer{
+	border-top:0px;
+}
+.google-dark-blue{
+    background-color: #17224D;
+    color: #EAF2F9;
+    padding: 5px 5px;
+    display: block;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.google-dark-blue p{
+    margin: 0px;
+    font-size: 14px;	
+}
+.login-modal{
+    max-width: 420px;
+    margin: 0px auto;
+    padding-top: 10px;
+    padding-bottom: 45px;
+}
+.google-dark-blue h4{
+	background-color: #17224D;
+    color: #EAF2F9;
+    padding: 5px 5px;
+    display: block;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.modal-content {
+    background-color: #E2F0FF;
+    border-radius: 8px;
+}
+.modal-body h4{
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'ubuntubold';
+}
+.get-link{
+
+}
+
+.get-link h5 {
+    color: #28397A;
+    font-size: 15px;
+    font-family: 'ubuntubold';
+}
+.get-link p{
+	color: #28397A;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.get-link input{
+    background-color: transparent;
+    border: 1px solid #28397A;
+    border-radius: 10px;
+    height: 35px;
+    font-size: 14px;
+}
+.get-link .btn{
+	 background-color: #17224D;
+    color: #EAF2F9;
+    padding: 5px 5px;
+    display: block;
+    border-radius: 8px;
+    margin-top:15px;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.get-link form .form-control::-webkit-input-placeholder { 
+  color: #28397A;
+}
+
+.get-link  form .form-control::-moz-placeholder {
+ color: #28397A;
+}
+.get-link  form .form-control:-ms-input-placeholder {
+ color: #28397A;
+}
+.get-link  form .form-control:placeholder {
+ color: #28397A;
+}
+
+/*==================*/
+
+/*=======footer CSS======*/
+.carousel-indicators{
+	    bottom: -30px;
+}
+ footer{
+    background-color: #060914;
+    padding: 40px 0px;
+    margin-top: 60px;
+ }
+ footer h3{
+	color: #E2F0FF;
+    font-size: 25px;
+    padding-bottom: 8px;
+ }
+ footer ul{
+ 	list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+ }
+
+  footer ul li a{
+    color: #E2F0FF;
+    font-size: 14px;
+    padding-bottom: 2px;
+    display: inline-block;
+    text-transform: capitalize;
+ }
+
+ footer ul li a:hover{
+   	text-decoration:none;
+   	color: #E2F0FF;
+   }
+
+.copyright {
+    padding-top: 45px;
+}
+
+.copyright p{
+    color: #E2F0FF;
+    font-size: 14px;
+    margin: 0px;
+}
+/*====================*/
+
+/*=========Media quries================*/
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    flex-basis: 100%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 0rem;
+    padding-left: 0rem;
+	margin-right: .7rem;
+    margin-left: .7rem;
+}
+.contact-us{
+	padding-left: 101px;
+    padding-top: 35px;
+ }
+
+
+}
+/*=========Media quries================*/
